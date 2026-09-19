@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-label="Salesforce LWC Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B4C8C"/>
+      <stop offset="0.55" stop-color="#032D60"/>
+      <stop offset="1" stop-color="#00132E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00A1E0"/>
+      <stop offset="1" stop-color="#9C6BFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="960" height="260" rx="24" fill="url(#bg)"/>
+
+  <!-- grid / components glyph (Material grid_view), scaled, sits on the left -->
+  <g transform="translate(96 78) scale(4.4)" fill="url(#accent)">
+    <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/>
+  </g>
+
+  <!-- title + tagline -->
+  <text x="252" y="112" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Salesforce LWC Developer</text>
+  <text x="254" y="150" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="18" fill="#BCD5F0">Aprende o design system de LWC da sua org e documenta os padr&#245;es &#8212; por jornada.</text>
+
+  <!-- pills -->
+  <g font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600">
+    <rect x="254" y="176" width="168" height="30" rx="15" fill="#04203F" stroke="#9C6BFF" stroke-opacity="0.55"/>
+    <text x="338" y="196" fill="#C6ABFF" text-anchor="middle">documenta padr&#245;es</text>
+
+    <rect x="434" y="176" width="192" height="30" rx="15" fill="#04203F" stroke="#00A1E0" stroke-opacity="0.55"/>
+    <text x="530" y="196" fill="#7FD3F2" text-anchor="middle">Claude Code &#183; OpenCode</text>
+
+    <rect x="638" y="176" width="164" height="30" rx="15" fill="#04203F" stroke="#8AA9D6" stroke-opacity="0.45"/>
+    <text x="720" y="196" fill="#BCD5F0" text-anchor="middle">craft: sf-skills</text>
+  </g>
+</svg>
