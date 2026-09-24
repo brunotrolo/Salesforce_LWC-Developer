@@ -17,9 +17,6 @@
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
 </p>
 
-<p align="center">
-  [![skills.sh](https://skills.sh/b/brunotrolo/Salesforce_LWC-Developer)](https://skills.sh/brunotrolo/Salesforce_LWC-Developer) [![CI](https://github.com/brunotrolo/Salesforce_LWC-Developer/actions/workflows/ci.yml/badge.svg)](https://github.com/brunotrolo/Salesforce_LWC-Developer/actions)
-</p>
 
 <p align="center">
   <b>📄 README</b> &nbsp;·&nbsp; <a href="./INFORMACOES.md">📖 Informações</a> &nbsp;·&nbsp; <a href="./docs/ARCHITECTURE.md">🏛️ Arquitetura</a> &nbsp;·&nbsp; <a href="./docs/PLANEJAMENTO.md">🧭 Planejamento</a> &nbsp;·&nbsp; <a href="./LICENSE">⚖️ MIT License</a>
