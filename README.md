@@ -1,4 +1,5 @@
 <p align="center">
+
   <img src="assets/banner.svg" width="880" alt="Salesforce LWC Developer">
 </p>
 
@@ -14,6 +15,10 @@
   <img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20OpenCode-032D60?style=flat-square" alt="Works with Claude Code and OpenCode">
   <img src="https://img.shields.io/badge/craft-Salesforce%20sf--skills-00A1E0?style=flat-square" alt="Salesforce sf-skills">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
+</p>
+
+<p align="center">
+  [![skills.sh](https://skills.sh/b/brunotrolo/Salesforce_LWC-Developer)](https://skills.sh/brunotrolo/Salesforce_LWC-Developer) [![CI](https://github.com/brunotrolo/Salesforce_LWC-Developer/actions/workflows/ci.yml/badge.svg)](https://github.com/brunotrolo/Salesforce_LWC-Developer/actions)
 </p>
 
 <p align="center">
