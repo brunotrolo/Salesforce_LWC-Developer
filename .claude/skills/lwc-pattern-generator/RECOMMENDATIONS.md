@@ -1,5 +1,7 @@
 # Recomendacoes de melhoria — skill lwc-pattern-generator
 
+**Leia isto antes de qualquer tarefa não-trivial desta skill** — não só quando pedido explicitamente.
+
 Registro **vivo** de melhorias para a propria skill. A etapa 9 do guia (aprendizado)
 anexa propostas aqui com base no que aconteceu num run real (friccao com o guard,
 divergencia mal resolvida, score que nao capturou algo relevante, etc.); um humano

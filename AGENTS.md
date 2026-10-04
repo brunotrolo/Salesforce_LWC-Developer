@@ -110,3 +110,30 @@ docs/PLANEJAMENTO.md               # histórico de planejamento
 - [ ] Os testes da Skill 3 passam: `node --test .claude/skills/lwc-pattern-generator/tests/*.test.mjs`
 - [ ] A mudança rastreia a um pedido explícito (nada especulativo)
 - [ ] `README.md` / `INFORMACOES.md` / `docs/ARCHITECTURE.md` refletem mudanças estruturais
+
+## Alinhamento com o framework agentic
+
+- **Plan mode.** `.claude/rules/karpathy-guidelines.md` §1 ("Pense Antes de Codar") é a
+  base comportamental; o GUIA INICIAL obrigatório das Skills 1 e 3 é a aplicação
+  concreta disso — confirmar jornada e modo (criar/clonar/editar) antes de qualquer
+  escrita, nunca "recebe input e sai processando".
+- **Subagentes.** Este repositório **não tem `.claude/agents/`** — escolha deliberada,
+  não lacuna. As 3 skills autorais já são a unidade de delegação aqui; um subagente
+  adicionaria uma segunda camada de orquestração sem necessidade, e o campo `tools:`
+  de subagente seria ignorado em silêncio numa `SKILL.md` (ver regra 2 acima).
+- **Autoaperfeiçoamento / lições aprendidas.** O mecanismo é
+  `.claude/skills/lwc-pattern-generator/RECOMMENDATIONS.md`: a etapa 9 do guia anexa
+  propostas após friccao real num run, e um humano revisa. A partir de agora, este
+  arquivo deve ser **lido no início de qualquer tarefa não-trivial da Skill 3** — não
+  só quando pedido explicitamente.
+- **Verificação antes de concluir.** O comando
+  `node --test .claude/skills/lwc-pattern-generator/tests/*.test.mjs`, já exigido na
+  "Definição de pronto" acima, é o gate de verificação da Skill 3.
+- **Exigir elegância.** `.claude/rules/karpathy-guidelines.md` §2 ("Simplicidade
+  Primeiro") é a diretriz equivalente aqui: mínimo de código, nada especulativo.
+- **Integração MCP/sistêmica.** Sem integração MCP — não há serviço externo real no
+  fluxo desta skill hoje. Ausência documentada como conclusão, não como lacuna.
+- **Hooks PostToolUse.** Um hook `PostToolUse` está sendo adicionado agora em
+  `.claude/settings.json`: roda os testes da Skill 3 automaticamente quando a escrita
+  atinge `.claude/skills/lwc-pattern-generator/scripts/`, ao lado do hook `PreToolUse`
+  do `guard.mjs` já existente.

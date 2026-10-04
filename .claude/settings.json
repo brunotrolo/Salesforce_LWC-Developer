@@ -19,6 +19,18 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"let d='';process.stdin.on('data',c=>d+=c);process.stdin.on('end',()=>{try{const o=JSON.parse(d||'{}');const p=(o.tool_input&&o.tool_input.file_path)||'';if(p.includes('.claude/skills/lwc-pattern-generator/scripts/')){require('child_process').execSync('node --test .claude/skills/lwc-pattern-generator/tests/*.test.mjs',{stdio:'inherit',shell:true});}}catch(e){}});\"",
+            "statusMessage": "lwc-pattern-generator: rodando testes da Skill 3 (scripts/ foi alterado)"
+          }
+        ]
+      }
     ]
   }
 }
