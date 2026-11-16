@@ -18,6 +18,9 @@ description: >-
   `lwc-pattern-documenter`), autorar Apex puro, criar campos/objetos, ou mexer em Flow.
 ---
 
+> **Primeiro passo (Odin):** rode `odin ensure sf-lwc-developer` e só continue se a resposta tiver `"ok": true`.
+
+
 # LWC Pattern Generator — cria, clona e edita LWC alinhado ao design system da org
 
 Objetivo: dado um requisito do usuario, gerar ou editar um Lightning Web Component que

@@ -1,0 +1,38 @@
+# Contrato da skill no Odin (schemas/odin.schema.json). Mantido neste repositório; o catálogo só lê.
+id: sf-lwc-developer
+nome: LWC Developer
+dominio: salesforce
+dono: mantenedor
+descricao: Front-end em Lightning Web Components. Aprende o design system de LWC da org, escreve a spec do componente e cria, clona ou edita componentes alinhados aos padrões, com testes Jest.
+intencoes:
+  - criar um componente LWC para a tela
+  - editar o componente lightning web component existente
+  - clonar um LWC e adaptar para outro cenário
+  - documentar o design system de LWC da org
+  - escrever a spec do componente de tela
+  - ajustar o html e o javascript do componente
+  - criar um datatable em LWC com SLDS
+  - escrever o teste Jest do componente
+  - texto: prototipar a jornada em HTML
+    negativa: true
+  - texto: testar a tela na sandbox
+    negativa: true
+perfis_sugeridos:
+  - dev
+proximo:
+  - sf-apex-cover-loop
+  - sf-test
+skills:
+  - path: .claude/skills/lwc-pattern-generator/SKILL.md
+  - path: .claude/skills/lwc-pattern-documenter/SKILL.md
+  - path: .claude/skills/lwc-spec-writer/SKILL.md
+agentes: []
+regras:
+  - .claude/rules/karpathy-guidelines.md
+avaliacoes: evals/
+runtime:
+  dir: .claude/skills/lwc-pattern-generator/scripts
+  node: ">=20"
+  prerequisitos:
+    - node
+    - git
