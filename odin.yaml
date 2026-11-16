@@ -5,18 +5,26 @@ dominio: salesforce
 dono: mantenedor
 descricao: Front-end em Lightning Web Components. Aprende o design system de LWC da org, escreve a spec do componente e cria, clona ou edita componentes alinhados aos padrões, com testes Jest.
 intencoes:
-  - criar um componente LWC para a tela
-  - editar o componente lightning web component existente
-  - clonar um LWC e adaptar para outro cenário
-  - documentar o design system de LWC da org
-  - escrever a spec do componente de tela
-  - ajustar o html e o javascript do componente
-  - criar um datatable em LWC com SLDS
-  - escrever o teste Jest do componente
-  - texto: prototipar a jornada em HTML
-    negativa: true
-  - texto: testar a tela na sandbox
-    negativa: true
+  - "criar um componente LWC para a tela"
+  - "editar o componente lightning web component existente"
+  - "clonar um LWC e adaptar para outro cenário"
+  - "documentar o design system de LWC da org"
+  - "escrever a spec do componente de tela"
+  - "ajustar o html e o javascript do componente"
+  - "criar um datatable em LWC com SLDS"
+  - "escrever o teste Jest do componente"
+  - "cria um componente de busca de cliente"
+  - "faz um card de caso em lightning web component"
+  - "adapta esse LWC para o outro objeto"
+  - "o componente precisa de um formulário com validação"
+  - "aprende os padrões de LWC dessa org"
+  - "alinha o componente ao design system"
+  - "corrige o layout do componente no mobile"
+  - "adiciona o evento customizado ao componente"
+  - { texto: "prototipar a jornada em HTML", negativa: true }
+  - { texto: "testar a tela na sandbox", negativa: true }
+  - { texto: "criar a classe Apex do serviço", negativa: true }
+  - { texto: "modelar os objetos da solução", negativa: true }
 perfis_sugeridos:
   - dev
 proximo:
