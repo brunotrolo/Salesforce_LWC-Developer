@@ -37,6 +37,8 @@ skills:
 agentes: []
 regras:
   - .claude/rules/karpathy-guidelines.md
+politicas:
+  - sf-lwc-developer
 avaliacoes: evals/
 runtime:
   dir: .claude/skills/lwc-pattern-generator/scripts
