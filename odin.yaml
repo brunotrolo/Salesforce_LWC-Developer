@@ -39,6 +39,11 @@ regras:
   - .claude/rules/karpathy-guidelines.md
 politicas:
   - sf-lwc-developer
+usa:
+  - lib-salesforce-oficial@^1
+licenca_terceiros:
+  - nome: lib-salesforce-oficial
+    licenca: Apache-2.0
 avaliacoes: evals/
 runtime:
   dir: .claude/skills/lwc-pattern-generator/scripts

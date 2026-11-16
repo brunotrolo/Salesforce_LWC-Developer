@@ -43,3 +43,6 @@ nossa + craft oficial" do projeto `apex-test-loop`.
 
 > Cada skill importada tem os próprios blocos TRIGGER / DO NOT TRIGGER no frontmatter,
 > então coexistem sem colisão com as nossas e entre si.
+
+
+> Atualizado em 16/11/2026 para a versão canônica da `lib-salesforce-oficial` 1.1.0 do Odin (uma só versão em todas as skills). A fonte é `libs/` no repositório do Odin.
